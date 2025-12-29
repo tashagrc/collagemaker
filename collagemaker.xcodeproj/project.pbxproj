@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A369E98F2F02B2E30005A7FB /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A369E98E2F02B2E30005A7FB /* RxCocoa */; };
+		A369E9912F02B2E30005A7FB /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A369E9902F02B2E30005A7FB /* RxRelay */; };
+		A369E9932F02B2E30005A7FB /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A369E9922F02B2E30005A7FB /* RxSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A369E9702F02B29C0005A7FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A369E9932F02B2E30005A7FB /* RxSwift in Frameworks */,
+				A369E9912F02B2E30005A7FB /* RxRelay in Frameworks */,
+				A369E98F2F02B2E30005A7FB /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +134,9 @@
 			);
 			name = collagemaker;
 			packageProductDependencies = (
+				A369E98E2F02B2E30005A7FB /* RxCocoa */,
+				A369E9902F02B2E30005A7FB /* RxRelay */,
+				A369E9922F02B2E30005A7FB /* RxSwift */,
 			);
 			productName = collagemaker;
 			productReference = A369E9592F02B29B0005A7FB /* collagemaker.app */;
@@ -208,6 +220,9 @@
 			);
 			mainGroup = A369E9502F02B29A0005A7FB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A369E98D2F02B2E30005A7FB /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A369E95A2F02B29B0005A7FB /* Products */;
 			projectDirPath = "";
@@ -569,6 +584,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A369E98D2F02B2E30005A7FB /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A369E98E2F02B2E30005A7FB /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A369E98D2F02B2E30005A7FB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A369E9902F02B2E30005A7FB /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A369E98D2F02B2E30005A7FB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		A369E9922F02B2E30005A7FB /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A369E98D2F02B2E30005A7FB /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A369E9512F02B29A0005A7FB /* Project object */;
 }
