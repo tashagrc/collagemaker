@@ -10,6 +10,7 @@
 		A369E98F2F02B2E30005A7FB /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A369E98E2F02B2E30005A7FB /* RxCocoa */; };
 		A369E9912F02B2E30005A7FB /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A369E9902F02B2E30005A7FB /* RxRelay */; };
 		A369E9932F02B2E30005A7FB /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A369E9922F02B2E30005A7FB /* RxSwift */; };
+		A369E9CD2F02B64B0005A7FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A369E9CC2F02B6440005A7FB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		A369E9592F02B29B0005A7FB /* collagemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collagemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A369E96F2F02B29C0005A7FB /* collagemakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collagemakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A369E9792F02B29C0005A7FB /* collagemakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collagemakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A369E9CC2F02B6440005A7FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +103,7 @@
 				A369E9722F02B29C0005A7FB /* collagemakerTests */,
 				A369E97C2F02B29C0005A7FB /* collagemakerUITests */,
 				A369E95A2F02B29B0005A7FB /* Products */,
+				A369E9CC2F02B6440005A7FB /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A369E9CD2F02B64B0005A7FB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
